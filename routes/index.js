@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
-const requestApi = require('../config/request');
-const https = require('https');
+const requestApi = require('../config/request');s
 /* GET home page. */
 router.get('/', async(req, res, next) => {
+ 
   const path = 'https://cnodejs.org/api/v1/user/SevenSharp';
   let data;
   try {
